@@ -1,0 +1,42 @@
+body .profile--container
+{
+    
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+}
+
+.profile--container .overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 144, 0, 0.9);
+    /* z-index: 0; */
+}
+.profile--container .profile--section
+{
+    height: 100%;
+    /* position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    /* z-index: 10; */
+    
+}
+
+.profile--section .profile-pic-container
+{
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid lightsalmon;
+}
+.profile--container img{
+    border-radius: inherit;
+}
