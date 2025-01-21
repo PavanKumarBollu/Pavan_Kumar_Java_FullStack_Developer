@@ -24,13 +24,16 @@ body .profile--container
 {
     height: 100%;
     z-index: 1;
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .profile--section .profile-pic-container
 {
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
     border: 2px solid white;
     padding: 2px;
@@ -38,6 +41,88 @@ body .profile--container
 .profile--container img{
    
     border-radius: inherit;
-    border:inherit;
+    /* border:inherit; */
     width: 100%;
+}
+
+.profile--section h1 span::before
+{
+    content: "-";
+    
+}
+.profile--section h1 span::after
+{
+    content:"-"
+}
+
+.profile--section h1
+{
+    /* height: calc(100px); */
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile--section h1 span 
+{
+    font-size: 60px;
+    margin-bottom: 20PX;
+    /* position: absolute; */
+    top: 50%;
+    /* position: absolute; */
+    font-family: var(--font-family-kaushan);
+    color: white;
+    transform: rotate(-9deg);
+}
+
+.profile--section h3{
+    margin-top: 20px;
+}
+.profile--section h3 span{
+   font-size:25px;
+    font-family: var(--font-family-space);
+}
+
+
+.profile--section .social-icons-container
+{
+    margin-top: 20px;
+}
+
+.social-icons-container .social--icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social--icons li{
+    list-style: none;
+
+}
+.social--icons li a{
+    display: block;
+    width: 20px;
+    margin: 5px;
+}
+
+.social--icons li a img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Mobile screen Css */
+
+@media screen and (max-width:700px) {
+    .profile--section h1 span 
+    {
+        font-size: 45px;
+    }
+    .profile--section h3 span
+    {
+        font-size: 14px;
+    }
 }
