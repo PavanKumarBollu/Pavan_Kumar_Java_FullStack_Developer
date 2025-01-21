@@ -1,13 +1,12 @@
 body .profile--container
 {
-    
-    
-    height: 100%;
+    background-image: url(/images/cover_bg_3.jpg);
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* z-index: 1; */
+    background-size: cover;
 }
 
 .profile--container .overlay
@@ -18,16 +17,14 @@ body .profile--container
     left: 0;
     right: 0;
     background-color: rgba(255, 144, 0, 0.9);
-    /* z-index: 0; */
+    z-index: 0;
+    
 }
 .profile--container .profile--section
 {
     height: 100%;
-    /* position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
-    /* z-index: 10; */
+    z-index: 1;
+   
     
 }
 
@@ -35,8 +32,12 @@ body .profile--container
 {
     width: 250px;
     border-radius: 50%;
-    border: 2px solid lightsalmon;
+    border: 2px solid white;
+    padding: 2px;
 }
 .profile--container img{
+   
     border-radius: inherit;
+    border:inherit;
+    width: 100%;
 }
