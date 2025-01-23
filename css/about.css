@@ -1,0 +1,83 @@
+.about
+{
+    display: block;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: lightsalmon;
+}
+
+.section  .section-title
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.about .about--container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+   
+}
+
+.about--container .contact--container
+{
+    /* width: 35vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: rgb(8, 113, 108);
+}
+.contact--container div .properties--names--container
+{
+    background-color: red;
+}
+
+.properties--names--container .property--name
+{
+    font-family: var(--font-family-space);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    /* margin: 20px 5px; */
+}
+
+.properties--values--container .property--value
+{
+   
+    font-family: var(--font-family-space);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about--container .headline--container
+{
+    width: 55vw;
+    background-color: lightgreen ;
+}
